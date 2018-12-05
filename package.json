@@ -1,6 +1,6 @@
 {
   "name": "todolist_1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a simple to do list",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,13 @@
   "dependencies": {
     "mocha": "^5.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VforVengeance/toDoList.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VforVengeance/toDoList/issues"
+  },
+  "homepage": "https://github.com/VforVengeance/toDoList#readme"
 }
