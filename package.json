@@ -1,0 +1,21 @@
+{
+  "name": "todolist_1",
+  "version": "0.0.0",
+  "description": "a simple to do list",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "to",
+    "do",
+    "list",
+    "js"
+  ],
+  "author": "VforVengeance <peppemarchese97@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {}
+}
