@@ -46,6 +46,7 @@ exports.deleteToDo = function(id){
     for(var i = 0; i < toDoList.length; i++){
         if(toDoList[i].id === id){
             toDoList.splice(i, 1);
+            return toDoList[i];
         }
     }
 }
