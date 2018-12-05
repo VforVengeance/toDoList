@@ -64,7 +64,7 @@ exports.changeStatus = function(id, completed){
 exports.getListByUser = function(user){
     var array = [];
     for(var i = 0; i < toDoList.length; i++){
-        if(toDoList[i].user === user){
+        if(toDoList[i].assignedTo === user){
             array.push(toDoList[i]);
         }
     }
